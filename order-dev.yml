@@ -39,5 +39,8 @@ logging:
    root: info
 
 
-
+girl:
+  name: cusnenjun
+  age: 13
+  nickName: hello myname
 
