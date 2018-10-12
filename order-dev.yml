@@ -1,4 +1,4 @@
-env: dev
+env: dev02
 server:
   port: 8091
 
