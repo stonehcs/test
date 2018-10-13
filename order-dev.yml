@@ -42,5 +42,5 @@ logging:
 girl:
   name: cusnenjun
   age: 13
-  nickName: myname
+  nick-name: myname
 
