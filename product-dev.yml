@@ -1,5 +1,5 @@
 
-env: prodectenv
+env: prodectenv02
 
 spring:
   datasource:
