@@ -4,6 +4,6 @@ mybatis:
     mapUnderscoreToCamelCase: true
     useColumnLabel: true
 mapper:
-  mappers: com.suseng.usercommon.mapper.BaseMapper;
+  mappers: com.suseng.usercommon.mapper.BaseMapper
   not-empty: false
   identity: MYSQL
