@@ -1,0 +1,9 @@
+mybatis:
+  mapper-locations: classpath:mapper/*/*.xml
+  configuration:
+    mapUnderscoreToCamelCase: true
+    useColumnLabel: true
+mapper:
+  mappers: com.suseng.product.common.mapper.BaseMapper
+  not-empty: false
+  identity: MYSQL
