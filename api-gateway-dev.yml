@@ -6,7 +6,7 @@ zuul:
       serviceId: product
       sensitiveHeaders:  #设置cookie携带
   ignored-patterns:
-    - /product/product/list
+    - /testProduct/product/list
 spring:
   rabbitmq:
     host: 118.24.236.76
