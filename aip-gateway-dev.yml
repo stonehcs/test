@@ -1,0 +1,9 @@
+zuul:
+  routes:
+#    product: /testProduct/**
+    testProduct:
+      path: /testProduct/**
+      serviceId: product
+      sensitiveHeaders:  #设置cookie携带
+  ignored-patterns:
+    - /**/product/list
