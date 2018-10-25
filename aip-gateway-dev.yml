@@ -6,4 +6,4 @@ zuul:
       serviceId: product
       sensitiveHeaders:  #设置cookie携带
   ignored-patterns:
-    - /product/product/list
+    - /testProduct/product/list
