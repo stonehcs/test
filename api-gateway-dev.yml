@@ -8,6 +8,11 @@ zuul:
   ignored-patterns:
     - /product/product/list
 spring:
+  rabbitmq:
+    host: 118.24.236.76
+    port: 5672
+    username: guest
+    password: guest
   redis:
     database: 0
     host: localhost
@@ -19,3 +24,4 @@ spring:
       max-idle: 8
       min-idle: 0
     timeout: 3000
+   
