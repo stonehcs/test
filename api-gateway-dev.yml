@@ -5,6 +5,10 @@ zuul:
       path: /testProduct/**
       serviceId: product
       sensitiveHeaders:  #设置cookie携带
+    user:
+      path: /user/**
+      serviceId: user
+      sensitiveHeaders:
   ignored-patterns:
     - /testProduct/product/list
 spring:
