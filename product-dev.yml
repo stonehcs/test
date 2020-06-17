@@ -1,12 +1,14 @@
 
 env: prodectenv02
 
+server:
+  port: 8082
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/springcloud_sell?useUnicode=yes&characterEncoding=UTF-8&useSSL=false&allowMultiQueries=true&zeroDateTimeBehavior=convertToNull
+    url: jdbc:mysql://120.78.192.32:3306/bottle?useUnicode=yes&characterEncoding=UTF-8&useSSL=false&allowMultiQueries=true&zeroDateTimeBehavior=convertToNull
     username: root
-    password: 123456
+    password: qwe..032596
     type: com.alibaba.druid.pool.DruidDataSource
     druid:
       initial-size: 8
@@ -15,9 +17,7 @@ spring:
       query-timeout: 6000
       transaction-query-timeout: 6000
       remove-abandoned-timeout: 180
-      filters: stat
-
-      
+      filters: stat 
   redis:
     database: 0
     host: localhost
@@ -30,10 +30,10 @@ spring:
       min-idle: 0
     timeout: 3000
   rabbitmq:
-    host: 118.24.236.76
+    host: 120.78.192.32
     port: 5672
-    username: guest
-    password: guest
+    username: admin
+    password: Rrbang123&&mq
 
 
 
