@@ -34,6 +34,13 @@ spring:
     port: 5672
     username: admin
     password: Rrbang123&&mq
+  zipkin:
+    baseUrl: http://120.78.192.32:9411/
+    sender:
+      type: web
+  sleuth:
+    sample:
+      probability: 1
 
 
 
